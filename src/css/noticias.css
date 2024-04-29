@@ -1,0 +1,54 @@
+.secao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.noticias{
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+}
+
+.secao .imagem{
+    width: 100vw;
+    height: 450px;
+    margin-top: 12vh;
+}
+
+.secao .informacoes{
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+.secao .titulodois{
+    text-align: center;
+}
+
+.secao .paragrafo{
+    width: 90%;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+.modo-escuro .secao .paragrafo{
+    width: 90%;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+.modo-escuro .secao .titulodois{
+    text-align: center;
+    font-size: 36px;
+}
